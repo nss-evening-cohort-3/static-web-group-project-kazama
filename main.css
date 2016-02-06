@@ -59,7 +59,7 @@ p {
   margin: 0px 10%;
   font-size: .90em;
   text-align: center;
-  font-family: 'Cabin';
+  font-family: 'Cabin', sans-serif;
 }
 
 footer {
@@ -82,4 +82,13 @@ footer li {
   height: 41px;
   width: 41px;
   padding-bottom: 4px;
+}
+
+#product {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 15px;
+  float: left;
+  margin: 10px;
+  font-family: 'Cabin', sans-serif;
 }
