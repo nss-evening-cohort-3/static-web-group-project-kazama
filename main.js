@@ -81,7 +81,10 @@ var greenTomatillo = {
 
 
 //ittirate thru array
-
+var productAppender;
+var productLooper = function(thing) {
+	thing.forEach(productAppender)
+}
 
 
 
