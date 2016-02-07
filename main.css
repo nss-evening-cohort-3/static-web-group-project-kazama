@@ -23,7 +23,6 @@ nav li a {
 
 nav .logo {
   float: left;
-
 }
 
 .body_border {
@@ -90,7 +89,6 @@ footer li {
   font-family: 'Cabin', sans-serif;
 }
 
-
 #burrita article,
 #chips article {
   border: 1px solid black;
@@ -112,7 +110,6 @@ footer li {
   border-radius: 100%;
   display:inline-block;
   margin-top: 20px;
-
 }
 
 #burrita img {
