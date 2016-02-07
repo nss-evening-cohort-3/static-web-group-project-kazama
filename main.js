@@ -52,7 +52,7 @@ var burrita = [
   },
   greenTomatillo = {
     name: "Fried Green Tomatillos",
-    description: "So Southern, so artisinal",
+    description: "So Southern, so artisanal",
     url: "img/tomatillo.jpg",
     price: 3.44
   }
