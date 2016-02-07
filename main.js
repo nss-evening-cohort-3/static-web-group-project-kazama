@@ -1,21 +1,20 @@
-//create product array
-//name description price URL
+
 var chips = [
   queso = {
     name: "Bull's Milk Queso",
-    description: "a description will go here",
+    description: "Use your imagination...",
     url: "img/bullsqueso.jpg",
     price: 12.49
   },
   salsaPurse = {
     name: "Salsa Purse",
-    description: "an exciting description goes here",
+    description: "It's a purse, for your salsa!",
     url: "img/purse.jpg",
     price: 42.99
   },
   guac = {
-    name: "Table-Side, Spoon-Fed Quacamole",
-    description: "you need more description than that",
+    name: "Table-Side, Spoon-Fed Guacamole",
+    description: "You really need more description?",
     url: "img/guac.jpg",
     price: 1.54
   }
@@ -35,7 +34,7 @@ var burrita = [
   },
   refriedBeans = {
     name: "Refried Coffee Beans",
-    description: "another clever description",
+    description: "Because we love the planet",
     url: "img/refried-coffee.jpg",
     price: 5.77
   },
@@ -53,7 +52,7 @@ var burrita = [
   },
   greenTomatillo = {
     name: "Fried Green Tomatillos",
-    description: "So Southern, and artisinal",
+    description: "So Southern, so artisinal",
     url: "img/tomatillo.jpg",
     price: 3.44
   }
@@ -77,6 +76,4 @@ footerElement.innerHTML += "<footer>" + "<ul>" +
       "<li><a href=" + '"' + "#" + '"' + "><img src=" + '"img/fb-red.png"' +" alt=" + '"facebook logo"' + "class=" + '"footer_img"' + "></a></li>" +
       "<li><a href=" + '"#"' + "><img src=" + '"img/inst-red.png"' + " alt=" + '"instagram logo"' + " class=" + '"footer_img2"' + ">" + "</a>" + "</li>"
       + "<li><a href=" + '"#"' + "><img src=" + '"img/twt-red.png"' + " alt=" + '"twitter logo"' + " class=" + '"footer_img"' + "></a></li>" + 
-    "</ul>" + 
-  "</footer>";
-//add CSS thru JS
+    "</ul>" + "</footer>";
