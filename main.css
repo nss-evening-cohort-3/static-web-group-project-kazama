@@ -82,6 +82,7 @@ footer li {
 }
 
 #burrita {
+  width: 90%;
   border: 1px solid black;
   border-radius: 15px;
   text-align: center;
@@ -106,6 +107,7 @@ footer li {
 }
 
 #chips {
+  width: 90%;
   border: 1px solid black;
   float: left;
   text-align: center;
@@ -126,6 +128,6 @@ footer li {
   border-radius: 100%;
   display:inline-block;
   margin-top: 20px;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
 }

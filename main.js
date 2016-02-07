@@ -58,9 +58,7 @@ var burrita = [
     price: 3.44
   }
 ];
-//ittirate thru array
-//append to the DOM
-//repeat for chips
+
 for (var i = 0; i < burrita.length; i++) {
   var productElement = document.getElementById("burrita");
   productElement.innerHTML += "<article>" + "<img src=" + '"' + burrita[i].url +
@@ -73,4 +71,12 @@ for (var i = 0; i < chips.length; i++) {
     '"' + ">" + "<h3>" + chips[i].name + "</h3>" + "<p>" + chips[i].description +
     "</p>" + "<p>" + chips[i].price + "</p>" + "</article>";
 }
+
+var footerElement = document.getElementById("footer");
+footerElement.innerHTML += "<footer>" + "<ul>" +
+      "<li><a href=" + '"' + "#" + '"' + "><img src=" + '"img/fb-red.png"' +" alt=" + '"facebook logo"' + "class=" + '"footer_img"' + "></a></li>" +
+      "<li><a href=" + '"#"' + "><img src=" + '"img/inst-red.png"' + " alt=" + '"instagram logo"' + " class=" + '"footer_img2"' + ">" + "</a>" + "</li>"
+      + "<li><a href=" + '"#"' + "><img src=" + '"img/twt-red.png"' + " alt=" + '"twitter logo"' + " class=" + '"footer_img"' + "></a></li>" + 
+    "</ul>" + 
+  "</footer>";
 //add CSS thru JS
