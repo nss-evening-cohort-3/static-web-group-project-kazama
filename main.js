@@ -58,15 +58,15 @@ var burrita = [
   }
 ];
 
-for (var i = 0; i < burrita.length; i++) {
-  var productElement = document.getElementById("burrita");
-  productElement.innerHTML += "<article>" + "<img src=" + '"' + burrita[i].url +
-    '"' + ">" + "<h3>" + burrita[i].name + "</h3>" + "<p>" + burrita[i].description +
-    "</p>" + "<p>" + burrita[i].price + "</p>" + "</article>";
-}
-for (var i = 0; i < chips.length; i++) {
-  var productElement = document.getElementById("chips");
-  productElement.innerHTML += "<article>" + "<img src=" + '"' + chips[i].url +
-    '"' + ">" + "<h3>" + chips[i].name + "</h3>" + "<p>" + chips[i].description +
-    "</p>" + "<p>" + chips[i].price + "</p>" + "</article>";
-}
+var productLoopAppend = function(myArray, myElement) {
+
+	for (var i = 0; i < myArray.length; i++) {
+	  var productElement = document.getElementById(myElement);
+	  productElement.innerHTML += "<article>" + "<img src=" + '"' + myArray[i].url +
+	    '"' + ">" + "<h3>" + myArray[i].name + "</h3>" + "<p>" + myArray[i].description +
+	    "</p>" + "<p>" + myArray[i].price + "</p>" + "</article>";
+	};
+};
+
+productLoopAppend(burrita, "burrita");
+productLoopAppend(chips, "chips");
