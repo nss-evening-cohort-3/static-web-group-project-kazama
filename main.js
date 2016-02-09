@@ -58,15 +58,37 @@ var burrita = [
   }
 ];
 
-var productLoopAppend = function(myArray, myElement) {
 
+var makeProductString = function(myObj) {
+  var productString = "";
+  productString += "<article><img src='" + (myObj.url) + "' class='productImage'>";
+  productString += "<h3>" + (myObj.name) + "</h3>";
+  productString += "<p>" + (myObj.description) + "</p>";
+  productString += "<p>" + (myObj.price) + "</p></article>";
+
+  return productString;
+};
+
+
+var productLoopAppend = function(myArray, myElement) {
 	for (var i = 0; i < myArray.length; i++) {
+    productString = makeProductString(myArray[i]);
 	  var productElement = document.getElementById(myElement);
-	  productElement.innerHTML += "<article>" + "<img src=" + '"' + myArray[i].url +
-	    '"' + ">" + "<h3>" + myArray[i].name + "</h3>" + "<p>" + myArray[i].description +
-	    "</p>" + "<p>" + myArray[i].price + "</p>" + "</article>";
+	  productElement.innerHTML += productString;
 	};
 };
 
+
+
 productLoopAppend(burrita, "burrita");
 productLoopAppend(chips, "chips");
+
+
+
+
+
+
+
+
+
+
