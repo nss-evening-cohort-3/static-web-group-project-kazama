@@ -11,6 +11,10 @@
 
 ### Screenshots:
 
-![Main Page]()  
-![]()  
-![]()  
+![Main Page](https://raw.githubusercontent.com/mattbruton/static-web-group-project-kazama/mb-readme-edit/screenshots/burritaMainSS.png)  
+![Products Page](https://raw.githubusercontent.com/mattbruton/static-web-group-project-kazama/mb-readme-edit/screenshots/productsScreenshot.png)  
+![Meats Page](https://raw.githubusercontent.com/mattbruton/static-web-group-project-kazama/mb-readme-edit/screenshots/meatsscreenshot.png)
+
+### Contributors
+1. [Zach Parris](http://github.com/ZachParris)
+2. [Katye Russell](http://github.com/complikatyed)  
