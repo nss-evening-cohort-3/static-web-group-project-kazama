@@ -1,16 +1,66 @@
-# Static Web Group Project
+# NSS - Static Web Group Project 1 - Burrita Parlour
 
-As a team, build the web site for a fictitious product company. The team gets to decide what the name of the company is, and what types of products it manufactures. Be creative and have fun.
+This is the first project in the Static Web portion of the Front End Cohort where we were assigned groups to complete a mock business website. Primarily HTML and CSS, this was one of the first projects where we implemented JavaScript.
 
-## Setup
+==============================
 
-Every teammate copy and run the following commands in the host machine terminal.
+- Viewing/Downloading Project
+    - [To View Hosted Project](#to-view-hosted-project)
+    - [Installation](#installation)
+    - [To Run](#torun)
+- Specifications and Project Information
+    - [Languages] (#languages)
+    - [Tools] (#tools)
+    - [Specifications] (#specifications)
+    - [Contributors] (#contributors)
 
-```bash
-mkdir -p ~/workspace/group-projects && cd $_
-```
+==============================
 
-## Requirements
+## Viewing/Downloading Project
+
+### To View Hosted Project
+
+[Static Web - Group Project - Burrita Parlour](https://mb-nss-exercises.firebaseapp.com/burrita-parlour/index.html)
+
+### Installation
+
+Clone the repository from GitHub:
+
+`git clone https://github.com/mattbruton/NSS-GroupProject-StaticWeb-BurritaParlour.git`
+
+Navigate to the project from the directory it was cloned into:
+
+`cd NSS-GroupProject-StaticWeb-BurritaParlour/`
+
+### To Run
+
+If you need a command line http server, to install http-server globally:
+
+`npm install http-server -g`
+
+Then:
+
+`http-server` or `http-server -p XXXX` (the X's represent the port of your choice)
+
+You should now be able to open your browser and type `localhost:8080` to view the project.
+
+## Specs and Project Information
+
+### Languages
+
+1. JavaScript
+1. HTML
+1. CSS
+
+### Tools
+
+1. [Git](https://git-scm.com/)
+1. [Atom](https://atom.io/)
+1. [NPM http-server](https://www.npmjs.com/package/http-server)
+
+### Specifications
+
+==============================
 
 ### Theme
 
@@ -63,3 +113,9 @@ The team's product page will be driven from JavaScript code. Decide on the names
 1. Each product must be a card, much like everyone made in the Static Web quiz. As a team, decide on the style of the card.
 1. The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
 
+
+==============================
+
+### Contributors
+1. [Zach Parris](http://github.com/ZachParris)
+2. [Katye Russell](http://github.com/complikatyed)  
